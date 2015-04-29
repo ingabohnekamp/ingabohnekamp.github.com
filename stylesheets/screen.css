@@ -147,8 +147,8 @@ header {
 header span.ribbon-inner {
   position: relative;
   display: block;
-  background-color: #cd596b;
-  border: 4px solid #7c334f;
+  background-color: #ffffff;
+  border: 4px solid #d91a60;
   padding: 2px;
   z-index: 1;
 }
@@ -158,7 +158,7 @@ header span.left-tail, header span.right-tail {
   display: block;
   width: 56px;
   height: 105px;
-  background: transparent url(../images/ribbon-tail-sprite.png) 0 0 no-repeat;
+  /*background: transparent url(../images/ribbon-tail-sprite.png) 0 0 no-repeat;*/
   position: absolute;
   bottom: -37px;
   z-index: 0;
@@ -175,7 +175,7 @@ header span.right-tail {
 }
 
 header h1 {
-  background-color: #7c334f;
+  background-color: #d91a60;
   font-size: 2.5em;
   font-weight: 800;
   font-style: normal;
@@ -187,7 +187,7 @@ header h1 {
 }
 
 header h2 {
-  background-color: #7c334f;
+  background-color: #d91a60;
   font: bold italic .85em/1.5 Georgia, Times, “Times New Roman”, serif;
   color: #e69b95;
   padding-bottom: 14px;
@@ -268,6 +268,7 @@ span.banner-fix {
 }
 
 section#main_content {
+	background: #ece4d8;
   z-index: 2;
   padding: 20px 82px 0;
   min-height:185px;
@@ -364,7 +365,12 @@ footer span.octocat {
 /* content */
 
 body {
-  background: #ece4d8;
+  background: #ece4d8 url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
@@ -528,7 +534,7 @@ dd p:first-child {
 .header-level-1 {
   font-size: 1.85em;
   border-bottom: .2em double #d3ccc1;
-  color: #7c334f;
+  color: #d91a60;
   text-align: center;
   font-style: italic;
   margin: 1.1em 0 .38em;
