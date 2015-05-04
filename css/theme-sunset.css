@@ -43,6 +43,11 @@
 .text-white {
   color: #fff;
 }
+
+.text-turqoise {
+  color: #03c9ca;
+}
+
 .text-primary {
   color: #820233;
 }
@@ -417,9 +422,13 @@ nav hr {
 .mobile-toggle {
   display: none;
 }
+.nav-container {
+  background: transparent;
+}
+
 .top-bar {
   position: absolute;
-  background: #fff;
+  background: rgba(68, 234,168, 0.2);
   width: 100%;
   z-index: 10;
   -webkit-transition: all .5s ease;
@@ -427,6 +436,8 @@ nav hr {
   transition: all .5s ease;
   line-height: 0;
   top: 0;
+
+  color: #f22057;;
 }
 .top-bar .logo {
   max-width: 80px;
@@ -479,7 +490,7 @@ nav hr {
   padding: 0px 8px;
 }
 .overlay-bar {
-  background: none;
+  background: rgba(68, 234,168, 0.2);
 }
 .overlay-bar .has-dropdown:after {
   color: #fff;
@@ -595,7 +606,7 @@ nav hr {
   display: none !important;
 }
 .top-bar.nav-sticky {
-  background: rgba(255, 255, 255, 0.9);
+  background: #f22057;
 }
 .top-bar.nav-sticky .nav-menu {
   padding-top: 32px;
@@ -652,7 +663,7 @@ nav hr {
   color: #777777;
 }
 .overlay-bar.nav-sticky .social-icons li a {
-  color: #333333;
+  color: #ffffff;
 }
 .overlay-bar.nav-sticky .has-dropdown:after {
   color: #333333;
@@ -1596,6 +1607,7 @@ img.phone-portrait {
   margin-right: 24px;
   font-size: 24px;
 }
+
 .social-icons li:last-child {
   margin-right: 0px;
 }

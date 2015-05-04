@@ -1,0 +1,74 @@
+
+er {
+    color: #f22057;
+    color: rgba(11, 22, 61, 0.8);
+
+    color: rgba(68, 234, 168, 0.8);
+    color : #44EAA8;
+
+    color: #2d3e7a;
+}
+
+
+@font-face {
+    font-family: 'festivo_letters_no7regular';
+    src: url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.eot');
+    src: url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.woff2') format('woff2'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.woff') format('woff'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.ttf') format('truetype'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.svg#festivo_letters_no7regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.overlay-bar {
+    background: rgba(68, 234,168, 0.2);
+}
+
+.overlay-bar .logo-light {
+    display: none;
+}
+.overlay-bar .logo-dark {
+    display: block;
+}
+
+.top-bar.nav-sticky {
+    background: #44EAA8;
+}
+
+.welcome * {
+
+    text-transform: uppercase;
+
+font-family: festivo_letters_no7regular;
+
+
+}
+
+ header.centered-text .welcome h1 {
+
+    font-size: 70px;
+
+}
+
+header.centered-text .welcome span {
+
+    font-size: 20px;
+
+}
+
+
+.blue-section,
+section:nth-of-type(odd) {
+
+    background: #44EAA8;
+    color: #2d3e7a;
+
+}
+
+footer .social-icons li a {
+    color: #fff;
+}
