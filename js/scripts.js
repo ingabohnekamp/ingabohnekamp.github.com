@@ -532,7 +532,7 @@ function alignBottom(){
 		var that = $(this);
 		var height = that.height();
 		var parentHeight = that.parent().height();
-		var padAmount = (parentHeight) - (height) - 32;
+		var padAmount = (parentHeight) - (height);
 		that.css('padding-top', padAmount);
 	});
 }
