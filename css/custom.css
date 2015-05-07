@@ -40,35 +40,29 @@ er {
 }
 
 .welcome * {
-
     text-transform: uppercase;
     font-family: festivo_letters_no7regular;
-
-
 }
 
  header.centered-text .welcome h1 {
-
     font-size: 60px;
-
 }
 
 header.centered-text .welcome span {
     font-size: 20px;
-
 }
 
 
 .touch header.centered-text .welcome h1 {
-
     font-size: 15px;
     line-height: 1em;
+    margin-bottom: 3px;
 }
 
 .touch header.centered-text .welcome span {
     font-size: 10px;
     line-height: 1em;
-
+    margin-bottom: 3px;
 }
 
 
