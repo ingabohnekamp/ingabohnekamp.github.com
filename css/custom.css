@@ -59,6 +59,20 @@ header.centered-text .welcome span {
 }
 
 
+.touch header.centered-text .welcome h1 {
+
+    font-size: 15px;
+
+}
+
+.touch header.centered-text .welcome span {
+    font-size: 10px;
+
+}
+
+
+
+
 section:nth-of-type(odd) {
     background: #44EAA8;
     color: #2d3e7a;
