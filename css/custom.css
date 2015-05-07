@@ -56,10 +56,11 @@ header.centered-text .welcome span {
 .touch header.centered-text .welcome h1 {
     font-size: 15px;
     line-height: 1em;
-    margin-bottom: -30px;
+    margin-bottom: -5px;
 }
 
 .touch header.centered-text .welcome span {
+    margin-top: 40px;
     font-size: 10px;
     line-height: 1em;
     margin-bottom: 3px;
