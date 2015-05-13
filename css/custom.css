@@ -23,6 +23,10 @@ er {
 
 }
 
+p a {
+    color: #f22057;
+    text-decoration: underline;
+}
 
 .overlay-bar {
     background: rgba(68, 234,168, 0.2);
