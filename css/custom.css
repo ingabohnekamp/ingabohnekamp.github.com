@@ -32,13 +32,6 @@ header.centered-text .welcome h1 {
     font-size: 3.5em !important;
 }
 
-p.teaser {
-  font-size: 1.3em;
-  line-height: 1.5em;
-      color: #F53068;
-      padding: 0 5em 3em 0;
-}
-
 p.lead {
   font-size: 2em;
   line-height: 1.5em;
