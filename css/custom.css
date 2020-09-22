@@ -1,0 +1,160 @@
+
+.logo-dark {
+    width: 32px;
+    height: 32px;
+}
+
+er {
+    color: #f22057;
+    color: rgba(11, 22, 61, 0.8);
+
+    color: rgba(68, 234, 168, 0.8);
+    color : #cc2857;
+
+    color: #2d3e7a;
+}
+
+
+@font-face {
+    font-family: 'festivo_letters_no7regular';
+    src: url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.eot');
+    src: url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.woff2') format('woff2'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.woff') format('woff'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.ttf') format('truetype'),
+    url('../fonts/festivoletters_no.7_macroman/Festivo_Letters_No7-webfont.svg#festivo_letters_no7regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header.centered-text .welcome h1 {
+    font-size: 3.5em !important;
+}
+
+p.lead {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+p a {
+    color: #f22057;
+    text-decoration: underline;
+}
+
+.text-strawberry {
+    color: #F53068;
+}
+
+.overlay-bar {
+    background: #cc2857;
+}
+
+.home .overlay-bar {
+  background: rgba(204,40,87,0.2);
+}
+
+
+
+.overlay-bar .logo-light {
+    display: none;
+}
+.overlay-bar .logo-dark {
+    display: block;
+}
+
+.top-bar.nav-sticky {
+    background: #cc2857;
+    color: #ffffff;
+}
+
+.overlay-bar.nav-sticky .menu li a {
+    color: #ffffff;
+}
+
+.welcome * {
+    text-transform: uppercase;
+    font-family: festivo_letters_no7regular;
+}
+
+ header.centered-text .welcome h1 {
+    font-size: 60px;
+}
+
+header.centered-text .welcome span {
+    font-size: 20px;
+}
+
+
+.touch header.centered-text .welcome h1 {
+    font-size: 15px;
+    line-height: 1em;
+    margin-bottom: -50px;
+}
+
+.touch header.centered-text .welcome span {
+    font-size: 10px;
+    line-height: 1em;
+    margin-bottom: 3px;
+}
+
+.main-container > section {
+  padding-top: 200px;
+}
+
+/*
+section:nth-of-type(odd) {
+    background: #cc2857;
+    color: #ffffff;
+}
+*/
+
+footer {
+
+}
+
+footer h1, footer h2, footer, h3, footer h4, footer h5, footer h6, footer a, footer.details .sub a {
+    color: #cc2857;
+}
+
+footer .social-icons li a {
+    color: #cc2857;
+}
+
+
+footer.details {
+  background: rgba(204,40,87,0.2);
+  color: #cc2857;
+}
+/*
+footer.details {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+      background: #cc2857;
+}
+*/
+
+
+.timeline-event li {
+    margin-top: 25px;
+}
+
+.timeline-event li:first {
+    margin-top: 0px;
+}
+
+.timeline-event .middle i {
+  color: #f22057;
+}
+
+.timeline-event .middle .vertical-line {
+  background: #f22057;
+}
+
+
+
+.testimonial-source {
+  font-style: italic;
+}
